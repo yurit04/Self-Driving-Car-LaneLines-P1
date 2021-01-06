@@ -6,7 +6,7 @@
 
 ### 1. Description of the pipeline and the *draw_lines()* function. 
 
-My pipeline consisted of the following steps. 
+My image processing pipeline consists of the following steps. 
 * Convert images to gray scale using *grayscale()* helper function. 
 * Apply Gaussian smoothing via *gaussian_blur()* function to smooth out the noise.
 * Apply Canny edge detection algorithm to identify objects/lane edges on an image. 
